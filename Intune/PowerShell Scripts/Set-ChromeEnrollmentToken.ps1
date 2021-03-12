@@ -8,7 +8,7 @@
 #Set variables as input for the script
 $KeyPath = "HKLM:\SOFTWARE\Policies\Google\Chrome"
 $KeyName = "CloudManagementEnrollmentToken"
-$KeyValue = "5793bdc9-5db5-4091-9fba-785d44bb542e"
+$KeyValue = "________________"
 
 #Verify if the registry path already exists
 if(!(Test-Path $KeyPath)) {
